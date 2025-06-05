@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Node.js (если есть фронт)
+node_modules/
+
+# Tests cache
+.coverage
+pytest_cache/
+
+# Migrations (если хочешь игнорировать)
+migrations/
+
+# MyPy / Pylint
+.mypy_cache/
+.pyright/
